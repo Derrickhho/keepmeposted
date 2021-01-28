@@ -1,0 +1,81 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.centered {
+  min-height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.centerAutoLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+.header {
+  flex: none;
+  flex-grow: 0;
+  margin: 16px 0px;
+  font-size: 32px;
+  padding-left: 12px;
+  font-weight: 700;
+}
+
+.bodyText {
+  padding: 24px 0px 24px 0px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.test {
+  flex: none;
+  flex-grow: 0;
+  line-height: 48px;
+  margin: 16px 0px;
+}
+.xyMargin {
+  margin: 24px 0px;
+}
+
+.hibubbletest {
+  padding: 50px;
+}
+
+.button-1 {
+  background-color: #9b51e0;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.button-1:hover {
+  background-color: #814ab5;
+  color: white;
+}
+
+.button-2 {
+  background-color: #b47ce8;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.button-2:hover {
+  background-color: #814ab5;
+  color: white;
+}
